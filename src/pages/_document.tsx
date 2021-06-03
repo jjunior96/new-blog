@@ -38,7 +38,22 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="pt-BR">
-        <Head />
+        <Head>
+          <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+          <link rel="shorcut icon" href="/img/icon512.png" />
+          <link rel="apple-touch-icon" href="/img/icon512.png" />
+          <link rel="manifest" href="/manifest.json" />
+          <meta name="description" content="Blog" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
+            rel="stylesheet"
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />
