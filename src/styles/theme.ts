@@ -1,7 +1,8 @@
 export default {
   grid: {
     container: '130rem',
-    gutter: '3.2rem'
+    gutter: '3.2rem',
+    header: '6rem'
   },
   border: {
     radius: '0.4rem'
@@ -26,16 +27,14 @@ export default {
     }
   },
   colors: {
-    primary: '',
-    secondary: '',
-    mainBg: '',
+    white100: '#fff',
+    red100: '',
+    gray100: '#e1e5ee',
+    gray200: '#46495A',
+    gray300: '#383A47',
     lightBg: '',
-    white: '',
-    black: '',
-    lightGray: '',
-    gray: '',
-    darkGray: '',
-    red: ''
+    orange300: '#FB5606',
+    black: ''
   },
   spacings: {
     xxsmall: '0.8rem',
