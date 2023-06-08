@@ -40,7 +40,7 @@
   "devDependencies": {
     "@babel/core": "^7.22.1",
     "@babel/preset-typescript": "^7.21.0",
-    "@storybook/addon-essentials": "7.0.18",
+    "@storybook/addon-essentials": "7.0.20",
     "@testing-library/jest-dom": "^5.16.5",
     "@storybook/react": "7.0.18",
     "@testing-library/react": "^12.1.5",
